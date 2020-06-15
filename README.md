@@ -26,3 +26,4 @@ and other workers in different terminals (2 more required) with
 ```
 ./run.sh 2
 ```
+The designated names will be removed after training is complete.
