@@ -15,6 +15,8 @@ cd dist_mnistdemo
 ```
 This builds and docker image and generates the network bridge.
 
+Note: If sudo is required to run docker commands, run the scripts (`build.sh` and `run.sh` with sudo privileges.)
+
 To test the distributed training, run the first worker with
 ```
 ./run.sh 0
@@ -27,3 +29,5 @@ and other workers in different terminals (2 more required) with
 ./run.sh 2
 ```
 The designated names will be removed after training is complete.
+
+
